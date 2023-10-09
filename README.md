@@ -1,9 +1,9 @@
 # Reproducibility in Video Saliency Detection
 
-This repository contains the source code that we used to evaluate the approaches in our work "Saliency Detection in Videos: A Reproducibility Study with a Focus on Educational Videos"
+This repository contains the source code that we used to evaluate the approaches in our work "Saliency Detection in Videos: A Reproducibility Study with a Focus on Educational Videos". These are based in the python implementation offered by the mantainers of the [MIT/Tuebingen Benchmark](https://saliency.tuebingen.ai/)
 
-In this study we evaluated three video approaches: TASED-Net [1], ViNet [2], and HD2S [3].
-These were assessed on four metrics: Pearson’s correlation coefficient (CC), similarity (SIM), normalized scanpath saliency (NSS), and Judd area under the curve  variant (AUC-J). The code presented in this repository implements these metrics.
+In our study we evaluated three video approaches: TASED-Net [1], ViNet [2], and HD2S [3].
+These were assessed on four metrics: Pearson’s correlation coefficient (CC), similarity (SIM), normalized scanpath saliency (NSS), and Judd area under the curve  variant (AUC-J)
 
 
 ## Video saliency detection approaches
