@@ -1,9 +1,9 @@
-# Reproducibility in Video Saliency Detection
+# Investigating Salient Region Detection in Educational Videos
 
-This repository contains the source code that we used to evaluate the approaches in our work "Saliency Detection in Videos: A Reproducibility Study with a Focus on Educational Videos". These are based in the python implementation offered by the mantainers of the [MIT/Tuebingen Benchmark](https://saliency.tuebingen.ai/).
+This repository contains the source code that we used in our work "Investigating Salient Region Detection in Educational Videos". Specifically, we include the metrics we used to evaluate the video saliency detection methods in our educational scenario. These are based in the python implementation offered by the mantainers of the [MIT/Tuebingen Benchmark](https://saliency.tuebingen.ai/).
 
-In our study we evaluated three video approaches: TASED-Net [1], ViNet [2], and HD2S [3].
-These were assessed on four metrics: Pearson’s correlation coefficient (CC), similarity (SIM), normalized scanpath saliency (NSS), and Judd area under the curve  variant (AUC-J).
+In our study we applied four saliency detection approaches to our educational videos: TASED-Net [1], ViNet [2], HD2S [3], and TMFI[8].
+We used four metrics: Pearson’s correlation coefficient (CC), similarity (SIM), normalized scanpath saliency (NSS), and Judd area under the curve  variant (AUC-J).
 
 
 ## Video saliency detection approaches
@@ -12,6 +12,7 @@ The source code that implements each video saliency detection approach is provid
 - TASED-Net [1]: [github.com/MichiganCOG/TASED-Net](https://github.com/MichiganCOG/TASED-Net)
 - ViNet [2]: [github.com/samyak0210/ViNet](https://github.com/samyak0210/ViNeta)
 - HD2S [3]: [github.com/perceivelab/hd2s](https://github.com/perceivelab/hd2s)
+- TMFI [8]: [https://github.com/wusonghe/TMFI-Net](https://github.com/wusonghe/TMFI-Net)
 
 ## Datasets
 We used three datasets openly available to the public:
@@ -35,5 +36,7 @@ We used three datasets openly available to the public:
 [6] Jens Madsen, Sara U. J ́ulio, Pawel J. Gucik, Richard Steinberg, and Lucas C. Parra. Synchronized eye movements predict test scores in online video education. Proceedings of the National Academy of Sciences, 118(5):e2016980118, 2021.
 
 [7] H. Zhang, K. M. Miller, X. Sun, and K. S. Cortina. Wandering eyes: eye movements during mind wandering in video lectures. Applied Cognitive Psychology, 34:449–464, 2020.
+
+[8] Zhou, X., Wu, S., Shi, R., Zheng, B., Wang, S., Yin, H., ... & Yan, C. (2023). Transformer-based Multi-scale Feature Integration Network for Video Saliency Prediction. IEEE Transactions on Circuits and Systems for Video Technology.
 
 
